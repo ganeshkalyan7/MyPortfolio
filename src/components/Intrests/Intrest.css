@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.intrests{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    /* margin: 100px 0 100px; */
+    align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+}
+.intrests>h1{
+    font-size: 30px;
+    color:darkorange;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
+    letter-spacing: 7px;
+}
+
+/* .intrests__content{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+   
+} */
+.intrests__content{
+    display: flex;
+    padding: 50px;
+    justify-items:center;
+    width:max-content;
+    height: max-content;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.bike{
+    width: 150px;
+    height: 200px;
+    border-radius:50%;
+    justify-content: space-evenly;
+}
+.intrests__football{
+    display: flex;
+    flex: 0.2;
+  justify-content: space-evenly;
+   color:azure;
+    font-family: "Montserrat", sans-serif;
+}
+.intrests__music{
+    display: flex;
+    flex: 0.2;
+    flex-direction:left;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+
+
+
+}
+.intrests__bike{
+    display: flex;
+    flex: 0.2;
+    flex-direction:left;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+
+}
+.intrests__editing{
+    display: flex;
+    flex: 0.2;
+    flex-direction:left;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+
+}

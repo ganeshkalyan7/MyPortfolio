@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.projects {
+    align-items: center;
+    justify-content: center;
+    margin: 200px 150px;
+    width:100vw
+  }
+  .projects__container{
+    color:black;
+    flex: 0.4;
+    text-align: center;
+    max-width: 1000px;
+    margin-bottom: 20px;
+  }
+  .projects__container > h1 {
+    font-size: 30px;
+    color:darkorange;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 100px;
+    letter-spacing: 7px;
+  }
+  .project__one{
+    text-align: left !important;
+  }

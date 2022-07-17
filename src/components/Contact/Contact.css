@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    /* margin: 100px 0 100px; */
+    align-items: center;
+  }
+  .contact>h1{
+   color:darkorange;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 7px;
+  }
+
+  .contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.contact__text{
+    display: flex;
+    flex: 0.3;
+    justify-content: space-evenly;
+    text-align:left;
+}
+.contact__details{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contact__details > p {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  
+  .contact__details > p > span {
+    color: #f64c08;
+  }
+  
