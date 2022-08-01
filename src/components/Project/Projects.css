@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
 
 .projects {
     align-items: center;
     justify-content: center;
     margin: 200px 150px;
-    width:100vw
+    width: fit-content;
+    width:100vw;
+    
+    
   }
   .projects__container{
     color:black;
@@ -12,14 +16,25 @@
     text-align: center;
     max-width: 1000px;
     margin-bottom: 20px;
+    
+  
   }
   .projects__container > h1 {
     font-size: 30px;
     color:darkorange;
     font-family: 'Oswald', sans-serif;
+    /* font-family: 'Raleway', sans-serif !important; */
+   
     margin-bottom: 100px;
     letter-spacing: 7px;
+      background-color:transparent;
   }
   .project__one{
     text-align: left !important;
+    background-color: bisque !important;
+    
+    background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=2000");
+  }
+  href{
+    color: brown !important;
   }

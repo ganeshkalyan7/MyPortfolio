@@ -24,7 +24,7 @@ const Projects = () => {
           >
             <Typography>
               <h1>
-                <b> BOOKS STORE APP </b>
+                <b> Books Store App</b>
               </h1>
             </Typography>
           </AccordionSummary>
@@ -46,6 +46,7 @@ const Projects = () => {
             </Typography>
             <b> NETLIFY </b>
             <Button
+              variant="outlined"
               href="https://crudbooksstoreapp.netlify.app/"
               target="_blank"
             >
@@ -53,6 +54,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/mernStack_Bookapp_frontEnd"
               target="_blank"
             >
@@ -60,6 +62,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/mernStack_bookapp_backend"
               target="_blank"
             >
@@ -76,7 +79,7 @@ const Projects = () => {
           >
             <Typography>
               <h1>
-                <b> CONTACT MANAGEMENT SYSTEM</b>
+                <b> Contact Management System</b>
               </h1>
             </Typography>
           </AccordionSummary>
@@ -102,6 +105,7 @@ const Projects = () => {
             </Typography>
             <b> NETLIFY </b> :
             <Button
+              variant="outlined"
               href="https://employeecontactmanagement.netlify.app/"
               target="_blank"
             >
@@ -109,6 +113,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/EmployeContactManagement-frontend"
               target="_blank"
             >
@@ -116,6 +121,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/Employee_Contact_Management-backend"
               target="_blank"
             >
@@ -132,7 +138,7 @@ const Projects = () => {
           >
             <Typography>
               <h1>
-                <b> WHATSAPP_CLONE</b>
+                <b> WhatsApp_Clone</b>
               </h1>
             </Typography>
           </AccordionSummary>
@@ -158,6 +164,7 @@ const Projects = () => {
             </Typography>
             <b> NETLIFY </b>
             <Button
+              variant="outlined"
               href="https://whatsappclonesite.netlify.app/"
               target="_blank"
             >
@@ -165,6 +172,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/WhatsAppClone_FrontEnd"
               target="_blank"
             >
@@ -172,6 +180,7 @@ const Projects = () => {
             </Button>
             &nbsp; &nbsp; &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/WhatsApp_clone_backend"
               target="_blank"
             >
@@ -189,7 +198,7 @@ const Projects = () => {
           >
             <Typography>
               <h1>
-                <b> GUESS MY NUMBER </b>
+                <b> Guess My Number</b>
               </h1>
             </Typography>
           </AccordionSummary>
@@ -209,17 +218,80 @@ const Projects = () => {
               <h1>LINKS TO REFER PROJECTS</h1>
             </Typography>
             <b> NETLIFY </b>
-            <Button href="https://ganeshcristiano.netlify.app/" target="_blank">
+            <Button
+              variant="outlined"
+              href="https://ganeshcristiano.netlify.app/"
+              target="_blank"
+            >
               View project
             </Button>
             &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
             <Button
+              variant="outlined"
               href="https://github.com/ganeshkalyan7/Gusse_Number"
               target="_blank"
             >
               FrontEnd_Code
             </Button>
             &nbsp; &nbsp;
+          </AccordionDetails>
+        </Accordion>
+        {/* 4th project */}
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>
+              <h1>
+                <b> travel review </b>
+              </h1>
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails className="project__one">
+            <Typography>
+              <h3>
+                this ia travel log project where a person can review the place,
+                and to review the place, first zoom and choose the location and
+                than double click on the location and you will get a review
+                popup
+                <ul>
+                  <li>React js</li>
+                  <li>Node js </li>
+                  <li>Express</li>
+                  <li>Mongodb</li>
+                  <li>Mapbox</li>
+                </ul>
+              </h3>
+            </Typography>
+            <Typography>
+              <h1>LINKS TO REFER PROJECTS</h1>
+            </Typography>
+            <b> NETLIFY </b>
+            <Button
+              variant="outlined"
+              href="https://travellogreview.netlify.app/"
+              target="_blank"
+            >
+              View project
+            </Button>
+            &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
+            <Button
+              variant="outlined"
+              href="https://github.com/ganeshkalyan7/travell_experiance_frontend"
+              target="_blank"
+            >
+              FrontEnd_Code
+            </Button>
+            &nbsp; &nbsp; &nbsp;
+            <Button
+              variant="outlined"
+              href="https://github.com/ganeshkalyan7/travell_experiance_backend"
+              target="_blank"
+            >
+              BackEnd_Source_code
+            </Button>
           </AccordionDetails>
         </Accordion>
       </div>

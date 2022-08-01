@@ -25,23 +25,29 @@
     flex: 0.3;
     justify-content: space-evenly;
     text-align:left;
+    font-size: larger;
+    letter-spacing: 2px;
 }
 .contact__details{
     border: 1px solid white;
     width: 600px;
-    height: 200px;
+    height:fit-content;
     display: flex;
     flex: 0.5;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
 }
 .contact__details > p {
     font-size: 20px;
     text-align: left;
     padding-bottom: 30px;
+    align-items: center;
+    /* letter-spacing: 2px; */
+   
   }
   
   .contact__details > p > span {

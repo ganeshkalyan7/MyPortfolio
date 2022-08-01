@@ -24,6 +24,10 @@ const Contact = () => {
           <p>
             MobileNumber: <span> 9490623110 </span>
           </p>
+          <p>
+            Linkedin:{" "}
+            <span> https://www.linkedin.com/in/r-ganesh-372b38227</span>
+          </p>
         </div>
       </div>
     </Element>
