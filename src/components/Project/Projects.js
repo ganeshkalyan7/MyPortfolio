@@ -165,7 +165,7 @@ const Projects = () => {
             <b> NETLIFY </b>
             <Button
               variant="outlined"
-              href="https://whatsappclonesite.netlify.app/"
+              href="https://mern-whatsapp-38f36.firebaseapp.com/"
               target="_blank"
             >
               View project
@@ -253,9 +253,10 @@ const Projects = () => {
             <Typography>
               <h3>
                 this ia travel log project where a person can review the place,
-                and to review the place, first zoom and choose the location and
-                than double click on the location and you will get a review
-                popup
+                and to review the place, first zoom the location and choose the
+                location and than double click on the location and you will get
+                a review popup and fillup details. and to view the review form
+                click on the location icon .
                 <ul>
                   <li>React js</li>
                   <li>Node js </li>
@@ -288,7 +289,6 @@ const Projects = () => {
             <Button
               variant="outlined"
               href="https://github.com/ganeshkalyan7/travell_experiance_backend"
-              target="_blank"
             >
               BackEnd_Source_code
             </Button>

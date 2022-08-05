@@ -19,14 +19,23 @@ const Contact = () => {
             Email : <span>ganeshkalyan506@gmail.com</span>
           </p>
           <p>
-            Github : <span>https://github.com/ganeshkalyan7</span>
+            Github :
+            <a href="https://github.com/ganeshkalyan7" target="_blank">
+              <span>https://github.com/ganeshkalyan7</span>
+            </a>
           </p>
           <p>
             MobileNumber: <span> 9490623110 </span>
           </p>
           <p>
             Linkedin:{" "}
-            <span> https://www.linkedin.com/in/r-ganesh-372b38227</span>
+            {/* <span> https://www.linkedin.com/in/r-ganesh-372b38227</span> */}
+            <a
+              href="https://www.linkedin.com/in/r-ganesh-372b38227"
+              target="_blank"
+            >
+              <span> https://www.linkedin.com/in/r-ganesh-372b38227 </span>
+            </a>
           </p>
         </div>
       </div>
