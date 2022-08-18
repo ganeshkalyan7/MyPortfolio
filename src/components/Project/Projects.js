@@ -106,7 +106,7 @@ const Projects = () => {
             <b> NETLIFY </b> :
             <Button
               variant="outlined"
-              href="https://employeecontactmanagement.netlify.app/"
+              href="https://employe-contact-management-frontend.vercel.app/"
               target="_blank"
             >
               View project
@@ -289,6 +289,65 @@ const Projects = () => {
             <Button
               variant="outlined"
               href="https://github.com/ganeshkalyan7/travell_experiance_backend"
+            >
+              BackEnd_Source_code
+            </Button>
+          </AccordionDetails>
+        </Accordion>
+
+        {/* 5th project */}
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>
+              <h1>
+                <b> e-commerce web site </b>
+              </h1>
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails className="project__one">
+            <Typography>
+              <h3>
+                this is simple e-commerce web site where users can login and
+                resgister for this account. once after placing the order user
+                can view the order history and can pay for the product using
+                paypal and stipe account
+                <ul>
+                  <li>React js</li>
+                  <li>Node js </li>
+                  <li>Express</li>
+                  <li>Mongodb</li>
+                  <li>developer paypal</li>
+                </ul>
+              </h3>
+            </Typography>
+            <Typography>
+              <h1>LINKS TO REFER PROJECTS</h1>
+            </Typography>
+            <b> NETLIFY </b>
+            <Button
+              variant="outlined"
+              href="https://amazon-clone-front-end.vercel.app/"
+              target="_blank"
+            >
+              View project
+            </Button>
+            &nbsp; &nbsp; &nbsp; <b> GITHUB: </b> &nbsp;
+            <Button
+              variant="outlined"
+              href="https://github.com/ganeshkalyan7/amazonClone__FrontEnd"
+              target="_blank"
+            >
+              FrontEnd_Code
+            </Button>
+            &nbsp; &nbsp; &nbsp;
+            <Button
+              variant="outlined"
+              href="https://github.com/ganeshkalyan7/amazoneCloneBackend"
             >
               BackEnd_Source_code
             </Button>
