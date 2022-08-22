@@ -9,7 +9,7 @@ const TopContent = () => {
         <h1>MR.GANESH</h1>
         <h4>FULL STACK WEB DEVELOPER</h4>
         <a
-          href="https://drive.google.com/file/d/1rA8cpypOJNm7HIa6ifsy1kvTmtb0wku7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1NSqEZusc5yn2lNkwqSrYzX17iZ030DXx/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
         >
